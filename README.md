@@ -1,1 +1,3 @@
-# daily_journal
+Daily Journal 
+
+(note add notes)
