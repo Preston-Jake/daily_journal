@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daily Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="../src/css/normalize.css"> -->
+</head>
+
+<body>
+    <div id="title-box" class="sticky">
+        <h1 id="title">Daily Journal</h1>
+        <span>Best sermons are lived not preached</span>
+    </div>
+    <form id="dailyJournalForm" action="index.html">
+        <fieldset>
+            <label for="label_journalDate">Date of entry</label>
+            <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+        <fieldset>
+            <label>Concepts Covered</label>
+            <input type="text" id="journalConcepts">
+        </fieldset>
+        <fieldset>
+            <label>Journal Entry</label>
+            <textarea id="journalEntry" cols="20" rows="2"></textarea>
+        </fieldset>
+        <fieldset>
+            <label>Mood</label>
+            <select id="journalMood">
+                <option value="pickleRick">I'M PICKLE RICK!!</option>
+                <option value="exuberant">EXUBERANT!</option>
+                <option value="happy">😁</option>
+                <option value="okay">Okay</option>
+                <option value="brainHurty">Brain Hurty</option>
+                <option value="overwhelmed">Overwhelmed</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <button id="journal_Submit" class="btn">Submit</button>
+        </fieldset>
+    </form>
+    <div id="journal_container"></div>
+    <script src="bundle.js"></script>
+</body>
+
+</html

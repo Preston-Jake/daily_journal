@@ -1,0 +1,127 @@
+@font-face{
+    font-family: dustWest;
+    src: url(../fonts/dust-west/Dust\ West.ttf)
+}
+@font-face{
+    font-family: sweetTequila;
+    src: url(../fonts/tequila-sunset/TequilaSunset-Regular.ttf)
+}
+
+h1{
+    font-family: dustWest;
+    font-size: 104px;
+    text-shadow: 3px 3px 1px black;
+    margin: 64px;
+}
+
+*{
+    box-sizing: border-box;
+}
+/* color #192124,  */
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-image: linear-gradient(0deg, #192124,#474847);
+    height: auto;
+    padding-top: 312px;
+}
+
+#title-box{
+    background: black url(../img/old-grunge-cement-wall-backgrounds_34552-195.jpg) no-repeat center / cover;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFB100;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 7px 10px -2px black;
+    flex-wrap: wrap;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+#title-box span{
+    font-family: sweetTequila;
+    color: #B2BBFE;
+}
+
+#dailyJournalForm{
+    border-radius: 2em;
+    box-shadow: 0 8px 6px -6px black;
+    margin: 2px;
+    background: #242C34;
+    box-shadow: 0 8px 6px -3px black;
+    
+}
+
+fieldset{
+    display: flex;
+    border: 0;
+    font-family: sweetTequila;
+    color: #8BE6CB;
+    padding: 8px 16px;
+    margin: 0px;
+}
+
+.btn{
+    background: #FFB100;
+    border-radius: 10px;
+    box-shadow: 0 5px 3px rgb(15, 0, 0);
+    padding: 8px 16px;
+}
+
+.btn:hover {
+    background-color: rgb(182, 127, 0)
+}
+
+.btn:active {
+    background-color: rgb(182, 127, 0);
+    box-shadow: 0 5px rgb(15, 0, 0);
+    transform: translateY(3px);
+  }
+
+#moodForTheDay{
+    background: white;
+}
+
+.journal-item{
+    padding: 8px;
+    margin: 16px 8px;
+    background: #483E39 url(../img/) no-repeat center / cover;
+    border-radius: 20px;
+    font-family: sweetTequila;
+    color: #8BE6CB;
+    box-shadow: 0 8px 6px -3px black;
+}
+
+.journal-item p,
+.journal-item span{
+    color: white;
+}
+
+
+.journal-item h2 + p{
+    color: #B2BBFE;
+    text-shadow: 2px 3px 2px black;
+}
+
+.journal-item h2{
+    text-shadow: 2px 3px 2px black;
+}
+input{
+    background: white;
+}
+@media (min-width:768px){
+    #dailyJournalForm{
+        align-self: center;
+    }
+    journal-item{
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "journals": [
+        {
+            "date": "01/30/1996",
+            "concepts": "Test My Birthday",
+            "entry": "This is a test entry",
+            "mood": "happy"
+        },
+        {
+            "date": "02/23/2006",
+            "concepts": "a random day",
+            "entry": "This is a test entry",
+            "mood": "idk"
+        }
+    ]
+}
